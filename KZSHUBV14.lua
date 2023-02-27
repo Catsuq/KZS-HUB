@@ -4089,7 +4089,7 @@ local function HIVRK_fake_script() -- psy.LocalScript
 	local script = Instance.new('LocalScript', psy)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://ghostbin.com/yuxVp/raw", true))()
+                loadstring(game:GetObjects("rbxassetid://3014051754")[1].Source)()", true))()
 	end)
 end
 coroutine.wrap(HIVRK_fake_script)()
@@ -4113,7 +4113,7 @@ local function LTAUBZS_fake_script() -- gabx.LocalScript
 	local script = Instance.new('LocalScript', gabx)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://ghostbin.com/2L3H3/raw", true))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/f5JJYjCK", true))()
 	end)
 end
 coroutine.wrap(LTAUBZS_fake_script)()
@@ -4137,7 +4137,7 @@ local function VSPV_fake_script() -- citrus.LocalScript
 	local script = Instance.new('LocalScript', citrus)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://ghostbin.com/xh8dc/raw"))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Catsuq/CitrusHub/maid/Citrus.lua"))();
 	end)
 end
 coroutine.wrap(VSPV_fake_script)()
